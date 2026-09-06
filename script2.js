@@ -1,14 +1,13 @@
 // TASK 8:
+let x = 20;
+let y = 5;
 
-let a = 20;
-let b = 5;
-
-console.log("Addition:", a + b);
-console.log("Subtraction:", a - b);
-console.log("Multiplication:", a * b);
-console.log("Division:", a / b);
-console.log("Modulus:", a % b);
-console.log("Exponentiation:", a ** b);
+console.log("Addition:", x + y);
+console.log("Subtraction:", x - y);
+console.log("Multiplication:", x * y);
+console.log("Division:", x / y);
+console.log("Modulus:", x % y);
+console.log("Exponentiation:", x ** y);
 
 //TASK 9:
 
@@ -44,7 +43,7 @@ console.log(K);
 //TASK 12:
 let A = 10; //11
 
-let B = ++a; //11
+let B = ++A; //11
 
 console.log(A);
 console.log(B);
@@ -53,7 +52,7 @@ console.log(B);
 
 let C = 20; //19
 
-let D = a--; //20
+let D = C--; //20
 console.log(C);
 console.log(D);
 
@@ -61,7 +60,7 @@ console.log(D);
 
 let E= 20;
 
-let F= --a;
+let F= --E;
 
 console.log(E);
 console.log(F); 
