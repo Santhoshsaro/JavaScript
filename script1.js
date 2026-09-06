@@ -17,8 +17,8 @@ studentAge = 23;
 console.log(studentAge);
 
 // Change Consts
-collegeName="Nehru College";
-console.log(collegeName);
+// collegeName="Nehru College";
+// console.log(collegeName);
 
 //TASK 2:
 
@@ -30,6 +30,69 @@ console.log("Name:", name);
 console.log("Age:",age);
 console.log("blood group:",blood);
 
-// console.log("Age:", age);
-// console.log("City:", city);
+// TASK 3:
 
+let Name = prompt("Enter you name");
+alert("WElcome" + Name);
+
+// TASK 4:
+
+let birthYear = prompt("Enter your birth year:");
+
+let currentYear = 2026;
+
+let Age = currentYear - birthYear;
+
+console.log("Birth Year:", birthYear);
+console.log("Age:", age);
+
+//TASK 5:
+
+let a = "Hello";
+let b = 100;
+let c = 25.5;
+let d = true;
+let e = false;
+let f;
+let g = null;
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof f);
+console.log(typeof g);
+
+//TASK 6:
+
+let student = {
+    name: "Naveen",
+    age: 22,
+    city: "Trichy",
+    qualification: "BSc Computer Science",
+    isStudent: true
+};
+
+console.log(student);
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.qualification);
+console.log(student.isStudent);
+
+//TASK 7:
+
+let fruits = [
+    "Apple",
+    "Mango",
+    "Orange",
+    "Banana",
+    "Grapes",
+    "Papaya"
+];
+
+console.log("First fruit:", fruits[0]);
+console.log("Second fruit:", fruits[1]);
+console.log("Last fruit:", fruits[fruits.length - 1]);
+console.log("Total fruits:", fruits.length);
